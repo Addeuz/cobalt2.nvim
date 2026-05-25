@@ -56,35 +56,35 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>#363b54</string>
+				<string>${blue7}</string>
 				<key>background</key>
 				<string>${bg}</string>
 				<key>caret</key>
-				<string>#DBC08A</string>
+				<string>${yellow}</string>
 				<key>findHighlight</key>
-				<string>#ffa300</string>
+				<string>${yellow}</string>
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
 				<key>foreground</key>
 				<string>${fg}</string>
 				<key>guide</key>
-				<string>#4f4f5e40</string>
+				<string>#3B536440</string>
 				<key>gutterForeground</key>
-				<string>#3b415caa</string>
+				<string>#3B5364aa</string>
 				<key>inactiveSelection</key>
-				<string>#282833</string>
+				<string>${bg_dark}</string>
 				<key>invisibles</key>
-				<string>#4f4f5e</string>
+				<string>#3B5364</string>
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>selection</key>
-				<string>#9D599D40</string>
+				<string>#0050A440</string>
 				<key>selectionBorder</key>
-				<string>#9D599D</string>
+				<string>${blue0}</string>
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuide</key>
-				<string>#4f4f5e60</string>
+				<string>#3B536460</string>
 				<key>tagsOptions</key>
 				<string>underline</string>
 			</dict>
@@ -167,7 +167,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9aa5ce</string>
+				<string>${fg_dark}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -351,7 +351,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ba3c97</string>
+				<string>${purple}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -384,7 +384,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7DCFFF</string>
+				<string>${teal}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -639,7 +639,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fc7b7b</string>
+				<string>${red}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -672,7 +672,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9abdf5</string>
+				<string>${fg_dark}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1079,7 +1079,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9abdf5</string>
+				<string>${fg_dark}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1090,7 +1090,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9abdf5</string>
+				<string>${fg_dark}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1112,7 +1112,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9aa5ce</string>
+				<string>${fg_dark}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1134,7 +1134,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4E5579</string>
+				<string>${blue7}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1160,7 +1160,7 @@ M.template = [[
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#61bdf2</string>
+				<string>${cyan}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1186,7 +1186,7 @@ M.template = [[
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#6d91de</string>
+				<string>${blue}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1199,7 +1199,7 @@ M.template = [[
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#9aa5ce</string>
+				<string>${fg_dark}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1212,7 +1212,7 @@ M.template = [[
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#747ca1</string>
+				<string>${dark5}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1273,7 +1273,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4e5579</string>
+				<string>${blue7}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1319,7 +1319,7 @@ M.template = [[
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#444b6a</string>
+				<string>${bg_highlight}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1330,7 +1330,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c0cefc</string>
+				<string>${blue5}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1352,7 +1352,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffdb69</string>
+				<string>${yellow}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1374,7 +1374,7 @@ M.template = [[
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b267e6</string>
+				<string>${magenta}</string>
 			</dict>
 		</dict>
 		<dict>

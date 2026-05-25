@@ -1,1 +1,1 @@
-require("cobalt2").load({ style = "moon" })
+require("cobalt2").load()

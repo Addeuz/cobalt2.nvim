@@ -2,21 +2,11 @@ local Util = require("cobalt2.util")
 
 local M = {}
 
----@type table<string, Palette|fun(opts:cobalt2.Config):Palette>
-M.styles = setmetatable({}, {
-  __index = function(_, style)
-    return vim.deepcopy(Util.mod("cobalt2.colors." .. style))
-  end,
-})
-
 ---@param opts? cobalt2.Config
 function M.setup(opts)
   opts = require("cobalt2.config").extend(opts)
 
-  local palette = M.styles[opts.style]
-  if type(palette) == "function" then
-    palette = palette(opts) --[[@as Palette]]
-  end
+  local palette = vim.deepcopy(Util.mod("cobalt2.colors.cobalt2"))
 
   -- Color Palette
   ---@class ColorScheme: Palette

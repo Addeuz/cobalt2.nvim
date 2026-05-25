@@ -13,7 +13,7 @@ function M.setup(opts)
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = "cobalt2-" .. opts.style
+  vim.g.colors_name = "cobalt2"
 
   for group, hl in pairs(groups) do
     hl = type(hl) == "string" and { link = hl } or hl
