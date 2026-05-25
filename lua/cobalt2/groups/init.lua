@@ -136,7 +136,7 @@ function M.setup(colors, opts)
   local names = vim.tbl_keys(groups)
   table.sort(names)
 
-  local cache_key = opts.style
+  local cache_key = "cobalt2"
   local cache = opts.cache and Util.cache.read(cache_key)
 
   local inputs = {

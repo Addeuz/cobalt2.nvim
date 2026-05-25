@@ -162,9 +162,7 @@ function M.cache.write(key, data)
 end
 
 function M.cache.clear()
-  for _, style in ipairs({ "storm", "day", "night", "moon" }) do
-    uv.fs_unlink(M.cache.file(style))
-  end
+  uv.fs_unlink(M.cache.file("cobalt2"))
 end
 
 return M
