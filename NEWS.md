@@ -2,7 +2,7 @@
 
 ## 4.x
 
-**TokyoNight** creates almost 900 highlight groups, so it was about time to refactor the code :)
+**Cobalt2** creates almost 900 highlight groups, so it was about time to refactor the code :)
 
 Support for plugins has been split in separate files and can be enabled/disabled via `opts`.
 
@@ -20,9 +20,9 @@ Set it to `false` to manually enable/disable plugins.
 
 ---
 
-## Bonus: `tokyonight` Dev Environment
+## Bonus: `cobalt2` Dev Environment
 
-Mostly for my owe use, but I've added a `tokyonight` dev environment to the repo,
+Mostly for my owe use, but I've added a `cobalt2` dev environment to the repo,
 that is automatically loaded from `.lazy.lua` when you use `lazy.nvim`.
 
 It mostly configures [mini.hipatterns](https://github.com/echasnovski/mini.hipatterns) to easily
