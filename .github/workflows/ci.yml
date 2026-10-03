@@ -14,4 +14,6 @@ jobs:
         with:
           neovim: true
           version: stable
+      # luassert is built with hererocks, which compiles Lua 5.1 and needs the readline headers
+      - run: sudo apt-get update && sudo apt-get install -y libreadline-dev
       - run: ./scripts/test
