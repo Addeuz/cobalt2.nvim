@@ -45,7 +45,7 @@ setw -g window-status-current-format "#[fg=${bg_statusline},bg=${fg_gutter},nobo
 set -g @prefix_highlight_fg '${black}'
 set -g @prefix_highlight_bg '${green}'
 set -g @prefix_highlight_output_prefix "#[fg=${green}]#[bg=${bg_statusline}]#[fg=${black}]#[bg=${green}]"
-set -g @prefix_highlight_output_suffix ""
+set -g @prefix_highlight_output_suffix "#[fg=${green}]#[bg=${bg_statusline}]"
 ]],
     colors
   )
