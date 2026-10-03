@@ -151,58 +151,10 @@ The lualine theme is picked up automatically with `theme = "auto"`, or set it ex
 
 </details>
 
-Fish has two outputs: `extras/fish/cobalt2.fish` is a script you `source`, and `extras/fish_themes/cobalt2.theme` is a
-theme file for `fish_config theme save`. `extras/lua/` is a plain Lua color table used by the tests, not a theme.
-
-Most of these are copied or symlinked into the app's config directory. Examples:
-
-**Ghostty**
-
-```sh
-mkdir -p ~/.config/ghostty/themes
-cp extras/ghostty/cobalt2 ~/.config/ghostty/themes/cobalt2
-```
-
-```
-# ~/.config/ghostty/config.ghostty
-theme = cobalt2
-```
-
-**tmux**
-
-```sh
-mkdir -p ~/.tmux/themes
-cp extras/tmux/cobalt2.tmux ~/.tmux/themes/
-```
-
-```
-# ~/.tmux.conf
-source ~/.tmux/themes/cobalt2.tmux
-```
-
-**fzf**
-
-```sh
-# ~/.zshrc
-source /path/to/cobalt2.nvim/extras/fzf/cobalt2.sh
-```
-
-**lazygit** — load it next to your normal config:
-
-```sh
-export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml,/path/to/cobalt2.nvim/extras/lazygit/cobalt2.yml"
-```
-
-**Discord** — copy `extras/discord/cobalt2.css` into your BetterDiscord themes folder and enable it in settings.
-
-**bat**
-
-```sh
-mkdir -p "$(bat --config-dir)/themes"
-cp extras/sublime/cobalt2.tmTheme "$(bat --config-dir)/themes/"
-bat cache --build
-# then use --theme="cobalt2"
-```
+Install instructions live in each extra's folder, for example [Ghostty](extras/ghostty/README.md),
+[tmux](extras/tmux/README.md), [fzf](extras/fzf/README.md), [lazygit](extras/lazygit/README.md),
+[Discord](extras/discord/README.md), [bat](extras/sublime/README.md) and [Fish](extras/fish/README.md). For the rest, copy
+or symlink the file into the app's config directory.
 
 ## Layout
 
