@@ -2,13 +2,16 @@ name: CI
 
 on:
   push:
-    branches: [main, master]
+    branches: [main]
   pull_request:
 
 jobs:
-  ci:
-    uses: folke/github/.github/workflows/ci.yml@main
-    secrets: inherit
-    with:
-      plugin: cobalt2.nvim
-      repo: Addeuz/cobalt2.nvim
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: rhysd/action-setup-vim@v1
+        with:
+          neovim: true
+          version: stable
+      - run: ./scripts/test

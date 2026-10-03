@@ -1,6 +1,6 @@
 local M = {}
 
-M.version = "4.14.1" -- x-release-please-version
+M.version = "0.1.0"
 
 ---@class cobalt2.Config
 ---@field on_colors fun(colors: ColorScheme)
