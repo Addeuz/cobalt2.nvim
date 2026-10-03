@@ -34,5 +34,7 @@ setw -g window-status-format "#[fg=#15232d,bg=#15232d,nobold,nounderscore,noital
 setw -g window-status-current-format "#[fg=#15232d,bg=#3b5364,nobold,nounderscore,noitalics]#[fg=#0088ff,bg=#3b5364,bold] #I  #W #F #[fg=#3b5364,bg=#15232d,nobold,nounderscore,noitalics]"
 
 # tmux-plugins/tmux-prefix-highlight support
-set -g @prefix_highlight_output_prefix "#[fg=#ffc600]#[bg=#15232d]#[fg=#15232d]#[bg=#ffc600]"
+set -g @prefix_highlight_fg '#142a3a'
+set -g @prefix_highlight_bg '#a5ff90'
+set -g @prefix_highlight_output_prefix "#[fg=#a5ff90]#[bg=#15232d]#[fg=#142a3a]#[bg=#a5ff90]"
 set -g @prefix_highlight_output_suffix ""
