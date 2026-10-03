@@ -1,0 +1,23 @@
+! Cobalt2 colors for Xresources
+
+*background: #193549
+*foreground: #ffffff
+
+*color0: #142a3a
+*color1: #ff628c
+*color2: #a5ff90
+*color3: #ffc600
+*color4: #0088ff
+*color5: #fb94ff
+*color6: #9effff
+*color7: #e1efff
+
+*color8: #0050a4
+*color9: #ff628c
+*color10: #a5ff90
+*color11: #ffc600
+*color12: #0088ff
+*color13: #fb94ff
+*color14: #9effff
+*color15: #ffffff
+ 

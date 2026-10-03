@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "name": "Cobalt2",
+  "colors": {
+    "accent": "#0088ff",
+    "border": "#0088ff",
+    "borderAccent": "#9effff",
+    "borderMuted": "#0d3a58",
+    "success": "#3ad900",
+    "error": "#f44542",
+    "warning": "#ffc600",
+    "muted": "#e1efff",
+    "dim": "#aaaaaa",
+    "text": "",
+    "thinkingText": "#0088ff",
+
+    "selectedBg": "#0050a4",
+    "userMessageBg": "#15232d",
+    "userMessageText": "",
+    "customMessageBg": "#15232d",
+    "customMessageText": "",
+    "customMessageLabel": "#9a5feb",
+    "toolPendingBg": "#1f4662",
+    "toolSuccessBg": "#1f4662",
+    "toolErrorBg": "#243649",
+    "toolTitle": "",
+    "toolOutput": "#e1efff",
+
+    "mdHeading": "#0088ff",
+    "mdLink": "#80ffbb",
+    "mdLinkUrl": "#0088ff",
+    "mdCode": "#0088ff",
+    "mdCodeBlock": "#15232d",
+    "mdCodeBlockBorder": "#0088ff",
+    "mdQuote": "#0088ff",
+    "mdQuoteBorder": "#0088ff",
+    "mdHr": "#ff9d00",
+    "mdListBullet": "#ff9d00",
+
+    "toolDiffAdded": "#20563a",
+    "toolDiffRemoved": "#453848",
+    "toolDiffContext": "#0050a4",
+
+    "syntaxComment": "#0088ff",
+    "syntaxKeyword": "#9a5feb",
+    "syntaxFunction": "#0088ff",
+    "syntaxVariable": "#ffffff",
+    "syntaxString": "#a5ff90",
+    "syntaxNumber": "#ff9d00",
+    "syntaxType": "#80fcff",
+    "syntaxOperator": "#9effff",
+    "syntaxPunctuation": "#9effff",
+
+    "thinkingOff": "#5f7e97",
+    "thinkingMinimal": "#aaaaaa",
+    "thinkingLow": "#0d3a58",
+    "thinkingMedium": "#0088ff",
+    "thinkingHigh": "#fb94ff",
+    "thinkingXhigh": "#9a5feb",
+
+    "bashMode": "#ff9d00"
+  }
+}

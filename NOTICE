@@ -1,0 +1,10 @@
+cobalt2.nvim
+
+The structure of this project (palette -> highlight groups -> generated extras) is
+derived from tokyonight.nvim by Folke Lemaitre, licensed under the Apache License 2.0.
+https://github.com/folke/tokyonight.nvim
+
+Colors are taken from the Cobalt2 VS Code theme by Wes Bos, licensed under MIT.
+https://github.com/wesbos/cobalt2-vscode
+
+Changes: single dark style, renamed to cobalt2, new palette.

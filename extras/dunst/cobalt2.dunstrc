@@ -1,0 +1,17 @@
+# Cobalt2 colors for dunst
+# For more configuration options see https://github.com/dunst-project/dunst/blob/master/dunstrc
+
+[urgency_low]
+    background = "#15232d"
+    foreground = "#ffffff"
+    frame_color = "#ffffff"
+
+[urgency_normal]
+    background = "#193549"
+    foreground = "#ffffff"
+    frame_color = "#ffffff"
+
+[urgency_critical]
+    background = "#1f4662"
+    foreground = "#f44542"
+    frame_color = "#f44542"

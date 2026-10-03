@@ -1,0 +1,22 @@
+// Cobalt2 Zellij Colors
+// Add this file to your `CONFIG_DIR/themes` directory as described here:
+// https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme
+
+themes {
+    cobalt2 {
+        fg "#ffffff"
+        bg "#1f4662"
+        // Black should match the terminal background color
+        // This ensures the top and bottom bars are transparent
+        black "#193549"
+        red "#ff628c"
+        green "#a5ff90"
+        yellow "#ffc600"
+        blue "#0088ff"
+        magenta "#fb94ff"
+        cyan "#9effff"
+        white "#e1efff"
+        orange "#ff9d00"
+    }
+}
+

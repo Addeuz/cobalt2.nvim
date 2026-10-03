@@ -1,0 +1,16 @@
+assistant-output-color: "#ffffff"
+
+# see the aider extra README for more information about setting the `code-theme`
+# https://github.com/Addeuz/cobalt2.nvim/blob/extras/aider/README.md
+# code-theme: cobalt2
+
+completion-menu-color: "#ffffff"
+completion-menu-bg-color: "#15232d"
+completion-menu-current-color: "#ffffff"
+completion-menu-current-bg-color: "#1f4662"
+
+tool-error-color: "#f44542"
+tool-output-color: "#0088ff"
+tool-warning-color: "#ffc600"
+
+user-input-color: "#a5ff90"

@@ -1,0 +1,26 @@
+{
+    "name": "Cobalt2",
+    "comment": "",
+    "use-theme-colors": false,
+    "foreground-color": "#ffffff",
+    "background-color": "#193549",
+    "palette": [
+        "#142a3a",
+        "#ff628c",
+        "#a5ff90",
+        "#ffc600",
+        "#0088ff",
+        "#fb94ff",
+        "#9effff",
+        "#e1efff",
+        "#0050a4",
+        "#ff628c",
+        "#a5ff90",
+        "#ffc600",
+        "#0088ff",
+        "#fb94ff",
+        "#9effff",
+        "#ffffff"
+    ]
+}
+  

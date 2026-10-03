@@ -1,0 +1,25 @@
+# Cobalt2
+
+# Syntax Highlighting Colors
+fish_color_normal ffffff
+fish_color_command 9effff
+fish_color_keyword fb94ff
+fish_color_quote ffc600
+fish_color_redirection ffffff
+fish_color_end ff9d00
+fish_color_option fb94ff
+fish_color_error ff628c
+fish_color_param 9a5feb
+fish_color_comment 0088ff
+fish_color_selection --background=0050a4
+fish_color_search_match --background=0050a4
+fish_color_operator a5ff90
+fish_color_escape fb94ff
+fish_color_autosuggestion 0088ff
+
+# Completion Pager Colors
+fish_pager_color_progress 0088ff
+fish_pager_color_prefix 9effff
+fish_pager_color_completion ffffff
+fish_pager_color_description 0088ff
+fish_pager_color_selected_background --background=0050a4

@@ -1,0 +1,9 @@
+[Scheme]
+Name="cobalt2"
+ColorBackground=#193549
+ColorForeground=#ffffff
+
+ColorSelectionBackground=#0050a4
+ColorSelection=#ffffff
+
+ColorPalette=#142a3a;#ff628c;#a5ff90;#ffc600;#0088ff;#fb94ff;#9effff;#e1efff;#0050a4;#ff628c;#a5ff90;#ffc600;#0088ff;#fb94ff;#9effff;#ffffff

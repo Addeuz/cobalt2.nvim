@@ -1,0 +1,45 @@
+[colors]
+foreground = "#ffffff"
+background = "#193549"
+cursor_bg = "#ffffff"
+cursor_border = "#ffffff"
+cursor_fg = "#193549"
+selection_bg = "#0050a4"
+selection_fg = "#ffffff"
+split = "#0088ff"
+compose_cursor = "#ff9d00"
+scrollbar_thumb = "#1f4662"
+
+ansi = ["#000000", "#ff628c", "#3ad900", "#ffc600", "#0088ff", "#fb94ff", "#80fcff", "#e1efff"]
+brights = ["#0050a4", "#ff628c", "#3ad900", "#ffc600", "#0088ff", "#fb94ff", "#80fcff", "#ffffff"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#15232d"
+background = "#193549"
+
+[colors.tab_bar.active_tab]
+fg_color = "#15232d"
+bg_color = "#0088ff"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#5f7e97"
+bg_color = "#1f4662"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#0088ff"
+bg_color = "#1f4662"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#0088ff"
+bg_color = "#193549"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#0088ff"
+bg_color = "#193549"
+
+[metadata]
+aliases = []
+author = "Addeuz"
+name = "cobalt2"

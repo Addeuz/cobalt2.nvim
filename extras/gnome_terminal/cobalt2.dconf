@@ -1,0 +1,18 @@
+# Import this theme as follows:
+# 1. Create a new profile for GNOME Terminal
+# 2. Copy the UUID of the new profile (bottom right corner of the preferences window)
+# 3. Replace <PROFILE_UUID> below with the copied UUID
+# 4. Execute `dconf load /org/gnome/terminal/legacy/profiles:/ < cobalt2.dconf`
+
+[:<PROFILE_UUID>]
+background-color='rgb(25, 53, 73)'
+cursor-background-color='rgb(255, 255, 255)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(25, 53, 73)'
+foreground-color='rgb(255, 255, 255)'
+highlight-background-color='rgb(255, 255, 255)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(25, 53, 73)'
+palette=['rgb(0, 80, 164)', 'rgb(255, 98, 140)', 'rgb(165, 255, 144)', 'rgb(255, 198, 0)', 'rgb(0, 136, 255)', 'rgb(251, 148, 255)', 'rgb(158, 255, 255)', 'rgb(255, 255, 255)', 'rgb(0, 80, 164)', 'rgb(255, 98, 140)', 'rgb(165, 255, 144)', 'rgb(255, 198, 0)', 'rgb(0, 136, 255)', 'rgb(251, 148, 255)', 'rgb(158, 255, 255)', 'rgb(255, 255, 255)']
+use-theme-colors=false
+visible-name='Cobalt2'

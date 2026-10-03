@@ -1,0 +1,40 @@
+{
+  "name": "Cobalt2",
+  "type": "custom",
+  "text": {
+    "primary": "#ffffff",
+    "secondary": "#e1efff",
+    "response": "#ffffff"
+  },
+  "background": {
+    "primary": "#193549",
+    "diff": {
+      "added": "#20563a",
+      "removed": "#453848"
+    }
+  },
+  "border": {
+    "default": "#1f4662",
+    "focused": "#0088ff"
+  },
+  "ui": {
+    "comment": "#0088ff",
+    "symbol": "#e1efff",
+    "gradient": ["#0088ff", "#fb94ff", "#9effff"]
+  },
+  "Background": "#193549",
+  "Foreground": "#ffffff",
+  "LightBlue": "#80fcff",
+  "AccentBlue": "#fb94ff",
+  "AccentPurple": "#9a5feb",
+  "AccentCyan": "#9effff",
+  "AccentGreen": "#ff9d00",
+  "AccentYellow": "#a5ff90",
+  "AccentRed": "#ff628c",
+  "DiffAdded": "#20563a",
+  "DiffRemoved": "#453848",
+  "Comment": "#0088ff",
+  "Gray": "#e1efff",
+  "DarkGray": "#15232d",
+  "GradientColors": ["#0088ff", "#fb94ff", "#9effff"]
+}

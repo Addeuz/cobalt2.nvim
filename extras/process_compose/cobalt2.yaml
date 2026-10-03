@@ -1,0 +1,36 @@
+style:
+  name: cobalt2
+  body:
+    fgColor: '#ffffff'
+    bgColor: '#15232d'
+    secondaryTextColor: '#e1efff'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#3b5364'
+  stat_table:
+    keyFgColor: '#ffc600'
+    valueFgColor: '#ffffff'
+    logoColor: '#ffc600'
+  proc_table:
+    fgColor: '#0088ff'
+    fgWarning: '#ffc600'
+    fgPending: '#5f7e97'
+    fgCompleted: '#a5ff90'
+    fgError: '#f44542'
+    headerFgColor: '#ffffff'
+  help:
+    fgColor: '#80fcff'
+    keyColor: '#ffffff'
+    hlColor: '#a5ff90'
+    categoryFgColor: '#9effff'
+  dialog:
+    fgColor: '#80fcff'
+    bgColor: '#142a3a'
+    contrastBgColor: '#193549'
+    attentionBgColor: '#f44542'
+    buttonFgColor: '#142a3a'
+    buttonBgColor: '#1f4662'
+    buttonFocusFgColor: '#142a3a'
+    buttonFocusBgColor: '#0088ff'
+    labelFgColor: '#ffc600'
+    fieldFgColor: '#142a3a'
+    fieldBgColor: '#0d3a58'
